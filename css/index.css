@@ -198,136 +198,236 @@ aside a:active {
     -moz-osx-font-smoothing: grayscale;
 
 }
-
-.dropdown-toggle a:{
-
+.main-page{
+  margin-left: 8%;
 }
 
-.dropdown-toggle a:
-{
-    font-size: 17px;
-    line-height: 45px;
-    list-style: none;
-    overflow: hidden;
-
-    margin: 0 auto;
-    padding: 1px 4px;
-
-    color: #fafafa;
-    border: 1px solid #d0648a;
-    border-radius: 5px;
-    background: #d0648a;
-
-
-}
-.dropdown-toggle a:visited
-{
-    font-size: 17px;
-    line-height: 45px;
-    list-style: none;
-    overflow: hidden;
-
-    margin: 0 auto;
-    padding: 1px 4px;
-
-    color: #fafafa;
-    border: 1px solid #d0648a;
-    border-radius: 5px;
-    background: #d0648a;
-}
-.dropdown-toggle a:hover
-{
-    font-size: 18px;
-    line-height: 35px;
-    padding: 1px 4px;
-    list-style: none;
-    color: #fafafa;
-    border: 1px solid #4fc1e9;
-    border-radius: 5px;
-    background: #4fc1e9;
-}
-address{
-  
-}
 .row{
   clear: both;
 }
 .row_pic img{
   width: 140px;
   height: 140px;
-  margin: 0 20%;
-  margin-top: -15px;
+  margin: 2% 28%;
+  margin-top: -18px;
   float: left;
 }
-.row_pic p{font-size: 18px;
-  margin:0 auto;
-  color: #4fc1e9;
+.row_cont ul {
   float: left;
-  }
-.row_cont p{
-  float: left;
-  font-size: 18px;
-  margin:0 auto;
-  color: #4fc1e9;
-  margin-left: 8%;
+  
+  margin:2% 7%;
+  color: #333333;
+  
+  text-align:center;
+  margin-top: -20px;
+  
 }
 
-.glyphicon{
-      font-size: 14px;
-    line-height: 25px;
-    list-style: none;
-    overflow: hidden;
-
-    margin: 0 auto;
-    padding: 1px 2px;
-
-    color: #fafafa;
-   
-    border-radius: 5px;   
+.row_cont ul p:first{
+  color: black;
 }
-nav{
-  width: 100%;
-  margin-left: 6%;
-
+.carousel{
+  margin:2% 6%;
+}
+.carousel img{
+  filter: Alpha(Opacity=60);
+    opacity: .6;
 }
 
-button span {
-  margin-top: -10px;
-  line-height: inherit;
+
+.thumbnail{
+  margin:2% auto;
 }
-.dropdown-menu >li >a
+
+ .thumbnail , .caption{
+  background-color: #f5f5f5;}
+
+.github ::before 
 {
-    font-size: 13px;
+    font-family: 'FontAwesome';
+    font-size: inherit;
 
-    position: absolute;
-    z-index: 1000;
-    top: 100%;
-    left: 0;
+    display: inline-block;
 
-    display: none;
-    float: left;
+    content: '\f09b';
+    transform: translate(0, 0);
 
-    min-width: 40px;
-    margin: 2px 0 0;
-    padding: 5px 0;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+.resume ::before{
+  font-family: 'FontAwesome';
+    font-size: inherit;
 
-    list-style: none;
+    display: inline-block;
 
-    text-align: left;
+    content: '\f19d';
+    transform: translate(0, 0);
 
-    border: 1px solid #ccc;
-    border: 1px solid rgba(0,0,0,.15);
-    border-radius: 4px;
-    background-color: #fff;
-    -webkit-background-clip: padding-box;
-            background-clip: padding-box;
-    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
-            box-shadow: 0 6px 12px rgba(0,0,0,.175);
-          }
-.carousel-inner{
-
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
-.item img{
-width: 80%;
-height: 80%;
+.blog  ::before {
+
+    font-family: 'FontAwesome';
+    font-size: inherit;
+
+    display: inline-block;
+
+    content: '\f09e';
+    transform: translate(0, 0);
+
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  } 
+ .tra-v ::before{
+     font-family: 'FontAwesome';
+    font-size: inherit;
+
+    display: inline-block;
+
+    content: '\f1bb';
+    transform: translate(0, 0);
+
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+   .tra-f ::before{
+     font-family: 'FontAwesome';
+    font-size: inherit;
+
+    display: inline-block;
+
+    content: '\f0fc';
+    transform: translate(0, 0);
+
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  .tra-b ::before{
+     font-family: 'FontAwesome';
+    font-size: inherit;
+
+    display: inline-block;
+
+    content: '\f182';
+    transform: translate(0, 0);
+
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+.book-b ::before{
+     font-family: 'FontAwesome';
+    font-size: inherit;
+
+    display: inline-block;
+
+    content: '\f212';
+    transform: translate(0, 0);
+
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .book-m ::before{
+     font-family: 'FontAwesome';
+    font-size: inherit;
+
+    display: inline-block;
+
+    content: '\f03d';
+    transform: translate(0, 0);
+
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  .book-y ::before{
+     font-family: 'FontAwesome';
+    font-size: inherit;
+
+    display: inline-block;
+
+    content: '\f001';
+    transform: translate(0, 0);
+
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .book-w ::before{
+     font-family: 'FontAwesome';
+    font-size: inherit;
+
+    display: inline-block;
+
+    content: '\f109';
+    transform: translate(0, 0);
+
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  article{
+    margin: 5% 10%;  
+  }
+
+ article ul{
+    border-left: 5px solid #4fc1e9;
+    border-radius-top: 3px;
+
+  }
+
+  article ul li{
+    margin-left: 3%;
+
+  }
+.cap-cont ul{
+    border-left: 5px solid #4fc1e9;
+    border-radius-top: 3px;
+
+  }
+ .cap-cont ul li{
+    margin-left: 3%;
+
+  }
+
+  .row_pic img{
+  width: 140px;
+  height: 140px;
+  margin: 2% 28%;
+  margin-top: -18px;
+  float: left;
 }
+.list-unstyled-ico ::before{
+  font-family: 'FontAwesome';
+    font-size: inherit;
+
+    display: inline-block;
+
+    content: '\f1e9';
+    transform: translate(0, 0);
+
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color:#4fc1e9;
+}
+
+.btn-pic{
+  margin: 2% 8%;
+}
+
+  footer p{
+    margin-top: 5%;
+    color:black;
+    text-align: center; 
+  }
