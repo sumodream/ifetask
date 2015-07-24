@@ -202,7 +202,7 @@ text-rendering: auto;
 font-family: 'FontAwesome';
 font-size: 16px;
 
-display: inline-block;
+overflow: hidden;
 
 content: '\f001';
 transform: translate(0, 0);
