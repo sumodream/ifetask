@@ -93,7 +93,7 @@ aside {
 left: 0;
 z-index: 100;
 position: fixed;
-top: 60%;
+top: 80%;
 display: inherit;
 transform: translate(0, -50%);
 }
@@ -169,38 +169,6 @@ display: none;
 .visible-lt-sm {
 display: block;
 }
-}
-.bo a::before
-{
-font-family: 'FontAwesome';
-font-size: inherit;
-
-display: inline-block;
-
-content: '\f18a';
-transform: translate(0, 0);
-
-text-rendering: auto;
--webkit-font-smoothing: antialiased;
--moz-osx-font-smoothing: grayscale;
-
-}
-.xin a::before 
-{
-font-family: 'FontAwesome';
-font-size: inherit;
-
-display: inline-block;
-
-margin-left: 2%;
-content: '\f1d7';
-transform: translate(0, 0);
-
-text-rendering: auto;
--webkit-font-smoothing: antialiased;
--moz-osx-font-smoothing: grayscale;
-
-
 }
 .music ::before{
 font-family: 'FontAwesome';
