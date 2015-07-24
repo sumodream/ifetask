@@ -104,7 +104,7 @@ width: 100%;
 left: auto;
 top: 0;
 transform: none;
-overflow-y: hidden;
+overflow: hidden;
 zoom: 1;
 }
 }
@@ -200,9 +200,9 @@ text-rendering: auto;
 }
 .music ::before{
 font-family: 'FontAwesome';
-font-size: 16px;
+font-size: inherit;
 
-overflow: hidden;
+display: inline-block;
 
 content: '\f001';
 transform: translate(0, 0);
