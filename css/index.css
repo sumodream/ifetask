@@ -115,7 +115,7 @@ padding: 0;
 }
 @media (max-width: 40px) {
 aside .links {
-display: table-row;
+display: inline-block;
 }
 }
 aside .link {
@@ -131,15 +131,16 @@ background-color: #4fc1e9;
 }
 @media (max-width: 40px) {
 aside .link {
-display: table-cell;
+display: inline-block;
 background-color: #d0648a;
 border-radius: 0;
 text-align: center;
 }
 }
 aside a {
-width: 10%;
-padding: 5px;
+width: 5%;
+
+margin-left:5px;
 
 display: inline-block;
 }
@@ -215,7 +216,7 @@ transform: translate(0, 0);
 text-rendering: auto;
 -webkit-font-smoothing: antialiased;
 -moz-osx-font-smoothing: grayscale;
-border-radius: 10px;
+
 }
 
 .main-page{
