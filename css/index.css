@@ -94,12 +94,13 @@ left: 0;
 z-index: 100;
 position: fixed;
 top: 60%;
+display: inherit;
 transform: translate(0, -50%);
 }
 @media (max-width: 40px) {
 aside {
 position: relative;
-display: table;
+display: inherit;
 width: 100%;
 left: auto;
 top: 0;
