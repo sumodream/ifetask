@@ -21,13 +21,16 @@
         <li class="link xin">
           <a href="#"></a>
         </li>
-        <li class="link music" id="am">
-          <a href="#" onclick="am();"></a>
-        </li>
+
+        
       </ul>
+      <br>
       <audio id="music" src="I'm Yours.mp3" loop="" preload="auto" autoplay="" style="display:none"></audio>
+      <button type="button" class="btn btn-info music" id="am" style="border-radius:10px">
+      <a href="#" onclick="am();"></a>
+    </button>
     <script type="text/javascript">
-    
+
       function am(){
      var aud = document.getElementById('music'); 
      if(aud.paused){                 

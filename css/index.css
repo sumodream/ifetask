@@ -101,7 +101,7 @@ transform: translate(0, -50%);
 aside {
 position: relative;
 display: inherit;
-width: 10%;
+width: 100%;
 left: auto;
 top: 0;
 transform: none;
@@ -191,6 +191,7 @@ font-size: inherit;
 
 display: inline-block;
 
+margin-left: 2%;
 content: '\f1d7';
 transform: translate(0, 0);
 
@@ -198,12 +199,15 @@ text-rendering: auto;
 -webkit-font-smoothing: antialiased;
 -moz-osx-font-smoothing: grayscale;
 
+
 }
 .music ::before{
 font-family: 'FontAwesome';
-font-size: inherit;
+font-size:inherit ;
 
-display: inline-block;
+display:inline-block;
+
+margin-left: -10px;
 
 content: '\f001';
 transform: translate(0, 0);
@@ -211,6 +215,7 @@ transform: translate(0, 0);
 text-rendering: auto;
 -webkit-font-smoothing: antialiased;
 -moz-osx-font-smoothing: grayscale;
+border-radius: 10px;
 }
 
 .main-page{
