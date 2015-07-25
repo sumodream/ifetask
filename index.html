@@ -16,21 +16,19 @@
     <aside>
       <audio id="music" src="I'm Yours.mp3" loop="" preload="auto" autoplay="" style="display:none"></audio>
       <button type="button" class="btn btn-info music" id="am" style="border-radius:10px">
-      <a href="#" onclick="am();"></a>
-    </button>
-    <script type="text/javascript">
-
+        <a href="#" onclick="am();"></a>
+      </button>
+      <script type="text/javascript">
       function am(){
      var aud = document.getElementById('music'); 
      if(aud.paused){                 
-         aud.play();//aud.play();// 播放  
+         aud.play();    //播放  
      }
      else{
-          aud.pause();// 暂停
+          aud.pause();  // 暂停
      } 
    }
-      </script>
-
+    </script>
     </aside>
     <header>
       <address>
