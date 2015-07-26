@@ -139,9 +139,7 @@ text-align: center;
 }
 aside a {
 width: 5%;
-
 margin-left:5px;
-
 display: inline-block;
 }
 aside a:link,
@@ -200,6 +198,22 @@ height: 140px;
 margin: 2% 28%;
 margin-top: -18px;
 float: left;
+-webkit-background-size: 140px 140px;
+-moz-background-size: 140px 140px;
+background-size: 140px 140px;
+-webkit-border-radius: 110px;
+border-radius: 110px;
+-webkit-transition: -webkit-transform 2s ease-out;
+-moz-transition: -moz-transform 2s ease-out;
+-o-transition: -o-transform 2s ease-out;
+-ms-transition: -ms-transform 2s ease-out;
+}
+.row_pic :hover {
+-webkit-transform: rotateZ(360deg);
+-moz-transform: rotateZ(360deg);
+-o-transform: rotateZ(360deg);
+-ms-transform: rotateZ(360deg);
+transform: rotateZ(360deg);
 }
 .row_cont ul {
 float: left;
