@@ -168,6 +168,24 @@ display: none;
 display: block;
 }
 }
+.music{
+-webkit-background-size: 140px 140px;
+-moz-background-size: 140px 140px;
+background-size: 140px 140px;
+-webkit-border-radius: 110px;
+border-radius: 100px;
+-webkit-transition: -webkit-transform 8s ease-out;
+-moz-transition: -moz-transform 8s ease-out;
+-o-transition: -o-transform 8s ease-out;
+-ms-transition: -ms-transform 8s ease-out;
+}
+.music :hover {
+-webkit-transform: rotateZ(360deg);
+-moz-transform: rotateZ(360deg);
+-o-transform: rotateZ(360deg);
+-ms-transform: rotateZ(360deg);
+transform: rotateZ(360deg);
+}
 .music ::before{
 font-family: 'FontAwesome';
 font-size:inherit ;
@@ -202,7 +220,7 @@ float: left;
 -moz-background-size: 140px 140px;
 background-size: 140px 140px;
 -webkit-border-radius: 110px;
-border-radius: 110px;
+border-radius: 100px;
 -webkit-transition: -webkit-transform 2s ease-out;
 -moz-transition: -moz-transform 2s ease-out;
 -o-transition: -o-transform 2s ease-out;
